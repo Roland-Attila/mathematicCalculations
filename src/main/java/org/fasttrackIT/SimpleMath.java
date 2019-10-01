@@ -16,8 +16,6 @@ public class SimpleMath {
     }
 
     public double minus(double one, double two) {
-        one = 244.5;
-        two = 122.2;
         cc = one - two;
         System.out.println("Result: " + cc);
         return (cc);
@@ -32,8 +30,6 @@ public class SimpleMath {
     }
 
     public double plus(double one, double two) {
-        one = 244.2;
-        two = 222.5;
         cc = one + two;
         System.out.println("Result: " + cc);
         return (cc);
@@ -48,8 +44,6 @@ public class SimpleMath {
     }
 
     public double divide(double one, double two) {
-        one = 90.9;
-        two = 30.3;
         cc = one / two;
         System.out.println("Result: " + cc);
         return (cc);
@@ -64,8 +58,6 @@ public class SimpleMath {
     }
 
     public double multiply(double one, double two) {
-        one = 320.8;
-        two = 320.9;
         cc = one * two;
         System.out.println("Result: " + cc);
         return (cc);
@@ -80,11 +72,8 @@ public class SimpleMath {
     }
 
     public double modulus(double one, double two) {
-        one = 780.99;
-        two = 81.23;
         cc = one % two;
         System.out.println("Result: " + cc);
         return (cc);
     }
-
 }
