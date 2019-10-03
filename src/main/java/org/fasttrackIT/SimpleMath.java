@@ -2,15 +2,11 @@ package org.fasttrackIT;
 
 public class SimpleMath {
 
-    int a;
-    int b;
     int c;
     double cc;
 
-    public int minus(SimpleMath one, SimpleMath two) {
-        one.a = 110;
-        two.b = 65;
-        c = one.a - two.b;
+    public int minus(int one, int two) {
+        c = one - two;
         System.out.println("Result: " + c);
         return (c);
     }
@@ -21,10 +17,8 @@ public class SimpleMath {
         return (cc);
     }
 
-    public int plus(SimpleMath one, SimpleMath two) {
-        one.a = 345;
-        two.b = 15;
-        c = one.a + two.b;
+    public int plus(int one, int two) {
+        c = one + two;
         System.out.println("Result: " + c);
         return (c);
     }
@@ -35,10 +29,8 @@ public class SimpleMath {
         return (cc);
     }
 
-    public int divide(SimpleMath one, SimpleMath two) {
-        one.a = 90;
-        two.b = 30;
-        c = one.a / two.b;
+    public int divide(int one, int two) {
+        c = one / two;
         System.out.println("Result: " + c);
         return (c);
     }
@@ -49,10 +41,8 @@ public class SimpleMath {
         return (cc);
     }
 
-    public int multiply(SimpleMath one, SimpleMath two) {
-        one.a = 320;
-        two.b = 320;
-        c = one.a * two.b;
+    public int multiply(int one, int two) {
+        c = one * two;
         System.out.println("Result: " + c);
         return (c);
     }
@@ -63,10 +53,8 @@ public class SimpleMath {
         return (cc);
     }
 
-    public int modulus(SimpleMath one, SimpleMath two) {
-        one.a = 780;
-        two.b = 81;
-        c = one.a % two.b;
+    public int modulus(int one, int two) {
+        c = one % two;
         System.out.println("Result: " + c);
         return (c);
     }
